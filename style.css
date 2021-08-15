@@ -1,0 +1,86 @@
+/*
+	ctrl+/ to create comment
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	* means universal selector (all the elements)
+*/
+
+* { 
+	/*Default font*/
+	font-family: 'Roboto', sans-serif;
+}
+
+h1,h2 {
+	
+	font-family: 'Montserrat', sans-serif;
+	/*
+	"h1" and "h2" are the elements
+	"sans-serif" is the call-back font
+	*/
+}
+
+img {
+	
+	height: 250px;
+	width: 250px;
+
+}
+
+#landing {
+
+	height: 80vh;
+	/*center the content, (image, heading, and paragraph) 
+	horizontally and vertically using flexbox*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+
+#gallery {
+
+	height: 75vh;
+	display: flex;
+	flex-direction: column;
+	/*horizontal alignment; enters all the items, not limtied to texts*/
+	align-items: center;
+	/*vertical alignment*/
+	justify-content: center;
+	/*height: 75vh;*/
+	color: white;
+	border-radius: 6px;
+
+}
+
+ul {
+
+	list-style: none;
+	padding: 0;
+
+}
+
+h2 {
+
+	color: #007bff;
+
+}
+
+.tools {
+
+	/*top, left, right, bottom*/
+	/*space inside the element*/
+	padding: 25px; 
+	border: 5px solid #f2f2f2;
+	/*space outside the element*/
+	margin: 20px;
+	height: 200px;
+	width: 75%;  /*75% of the wioth of the parent*/
+
+}
+
+html {
+
+	scroll-behavior: smooth;
+
+}
